@@ -1,0 +1,121 @@
+ol{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  padding: 0;
+  font-size: 50px;
+}
+body{
+      background-color: black;
+      color: black;
+      font: normal 0.8rem Bahnschrift Light SemiCondensed, Helvetica,sans-serif;
+      text-align: relative;
+}
+
+main, header, #barra_menu, section, footer{
+  margin: 0 auto;
+ }
+
+ header{
+  height: 80px;
+    width: 940px;
+    padding: 15px 0 0 0 ;
+    position: relative;
+ }
+
+section{
+  text-align: center;
+  width: 950px;
+  height: 600px;
+  border: 1px solid #CCC;
+  background-color: #bdb76b;
+  border-radius: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ footer{
+  background: -moz-linear-gradient(#FFF, #BBB);
+  background: -o-linear-gradient(#FFF, #BBB);
+  background: -webkit-linear-gradient(#FFF, #BBB);
+  height: 60px;
+  margin-top: 30px; 
+ }
+
+.first-day {
+  grid-column-start: 2;
+}
+.day-name{
+  background: #098EFF;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#menu_container{ height: 50px;}
+
+#barra_menu{
+     width: 560px;
+     height: 50px;
+     float: right;
+     margin: 0 auto;
+ }
+
+ ul#menu{margin: 0;}
+
+ ul#menu li{
+   padding: 0 0 0 0px;
+   list-style: none;
+   margin: 2px 0 0 0;
+   display: inline;
+   background: transparent;
+}
+
+ul#menu li a{
+  float: left;
+  font: bold 120% Arial, Helvetica, sans-serif;
+  height: 24px;
+  margin: 10px 0 0 20px;
+  text-shadow: 0px -1px 0px #000;
+  padding: 6px 10px 0 10px;
+  background: transparent;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+}
+
+ul#menu li.current a {
+  color: #098EFF;
+  text-shadow: none;
+}
+ 
+ul#menu li:hover a {
+  color: #098EFF;
+  text-shadow: none;
+}
+
+#colegio{
+    width: 300px;
+    float: left;
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 5px; 
+}
+
+#colegio h1{
+     font:normal 2.5em Arial, Helvetica, sans-serif;
+     letter-spacing:  -3px;
+     text-shadow: 1px 1px yellow;
+     color: #FFF;
+}
+
+#footer{
+  color: #1D1D1D;
+  width: 940px;
+  height: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 1px 1px #FFF;
+}
